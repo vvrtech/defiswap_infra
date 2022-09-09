@@ -1,0 +1,43 @@
+.welcome {
+  position: relative;
+  background: white;
+  padding: 0px 15px;
+  margin-top: 40px;
+}
+
+.welcome:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: inherit;
+  z-index: -1;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  transform-origin: top right;
+  transform: skewY(4deg);
+}
+
+.welcome1 {
+  position: relative;
+  background: white;
+  height: 100%;
+  width: 100%;
+}
+
+.welcome1:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: white;
+  z-index: -1;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  transform-origin: bottom right;
+  transform: skewY(-4deg);
+}

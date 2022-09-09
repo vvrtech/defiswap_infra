@@ -1,0 +1,18 @@
+Top Header Warning Color : 082a45
+
+Top Banner BG Color : 1f2335
+
+Coin on Card Area 363c53 
+
+Footer Color : #27262c
+
+Footer Rocket Green Color BG : #37aa3d
+
+Green Color Button : #37aa3d
+
+Green Text Color : # 37aa3d
+
+
+
+  transform-origin: bottom left;
+    transform: skewY(-4deg);
